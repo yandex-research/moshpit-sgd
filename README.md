@@ -6,9 +6,10 @@ This repository contains the official PyTorch implementation of experiments for
 the [paper](https://arxiv.org/abs/2103.03239).
 
 **Note (05.03.2021):** as of now, this repository contains only the minimal (largely untested) version of the
-implementation. We intend to make the training code more robust and to add the code for more experiments in the coming
-months. In the meantime, feel free to create an [issue](https://github.com/yandex-research/moshpit-sgd/issues) or
-contact us by [email](mailto:mryabinin0@gmail.com) if you are having any troubles.
+implementation. We intend to make the training code more robust and to add tested code for more experiments (including
+image classification) in the coming months. In the meantime, feel free to create
+an [issue](https://github.com/yandex-research/moshpit-sgd/issues) or contact us by [email](mailto:mryabinin0@gmail.com)
+if you are having any troubles.
 
 ## Setup
 
@@ -21,7 +22,6 @@ The links below The first experiment is a self-contained Jupyter notebook; for t
 README.md in their respective directories:
 
 * [Averaging quality](https://github.com/yandex-research/moshpit-sgd/blob/main/averaging_experiments.ipynb)
-* [Image classification](https://github.com/yandex-research/moshpit-sgd/tree/main/image_classification)
 * [Language modeling](https://github.com/yandex-research/moshpit-sgd/tree/main/language_modeling)
 
 ## References
