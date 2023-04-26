@@ -3,13 +3,7 @@
 ![Illustration of Moshpit SGD](scheme.png)
 
 This repository contains the official PyTorch implementation of experiments for
-the [paper](https://arxiv.org/abs/2103.03239).
-
-**Note (05.03.2021):** as of now, this repository contains only the minimal (largely untested) version of the
-implementation. We intend to make the training code more robust and to add tested code for more experiments (including
-image classification) in the coming months. In the meantime, feel free to create
-an [issue](https://github.com/yandex-research/moshpit-sgd/issues) or contact us by [email](mailto:mryabinin0@gmail.com)
-if you are having any troubles.
+the NeurIPS 2021 paper ["Moshpit SGD: Communication-Efficient Decentralized Training on Heterogeneous Unreliable Devices"](https://arxiv.org/abs/2103.03239).
 
 ## Setup
 
@@ -18,21 +12,23 @@ running `pip install -r requirements.txt`.
 
 ## Experiments
 
-The links below The first experiment is a self-contained Jupyter notebook; for the other two experiments, refer to
-README.md in their respective directories:
+The links below contain the implementations of experiments in their respective directories:
 
-* [Averaging quality](https://github.com/yandex-research/moshpit-sgd/blob/main/averaging_experiments.ipynb)
+* [Averaging quality](https://github.com/yandex-research/moshpit-sgd/blob/main/averaging_experiments/plot_results.ipynb)
 * [Language modeling](https://github.com/yandex-research/moshpit-sgd/tree/main/language_modeling)
 
 ## References
 
 ```
-@misc{ryabinin2021moshpit,
-      title={Moshpit SGD: Communication-Efficient Decentralized Training on Heterogeneous Unreliable Devices}, 
-      author={Max Ryabinin and Eduard Gorbunov and Vsevolod Plokhotnyuk and Gennady Pekhimenko},
-      year={2021},
-      eprint={2103.03239},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{ryabinin2021moshpit,
+ author = {Ryabinin, Max and Gorbunov, Eduard and Plokhotnyuk, Vsevolod and Pekhimenko, Gennady},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {18195--18211},
+ publisher = {Curran Associates, Inc.},
+ title = {Moshpit SGD: Communication-Efficient Decentralized Training on Heterogeneous Unreliable Devices},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/97275a23ca44226c9964043c8462be96-Paper.pdf},
+ volume = {34},
+ year = {2021}
 }
 ```
