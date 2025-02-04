@@ -10,9 +10,7 @@ using boto3.
 
 __Run manually:__
 
-1. Download the preprocessed BookCorpus from [this url](https://hivemind-data.s3.us-east-2.amazonaws.com/archive.tar.gz)
-    * Alternatively, use huggingface.datasets to preprocess OpenBookCorpus using parameters
-      from [ALBERT](https://arxiv.org/abs/1909.11942)
+1. Use huggingface.datasets to preprocess OpenBookCorpus using parameters from [ALBERT](https://arxiv.org/abs/1909.11942)
 2. Create some means for trainers to load the dataset: upload to S3 storage or an FTP server
 3. Run the first DHT peer (aka "coordinator") on a node that is accessible to all trainers:
    ``` python run_first_peer.py --listen_on [::]:1337 ```  (see details below)
